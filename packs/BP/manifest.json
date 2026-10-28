@@ -1,0 +1,50 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Beta 1.7.3 Terrain",
+        "description": "Minecraft Beta 1.7.3 world generation on Bedrock: same seed, same world, block for block.",
+        "uuid": "291055f0-2560-4f70-ace5-4340c7602b6f",
+        "version": [
+            1,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            26,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "69c9f17c-176a-4638-88e8-c90de70208cc",
+            "version": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "4b33b57f-31ea-47c5-9266-00304e093266",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.10.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.2.0"
+        }
+    ]
+}
